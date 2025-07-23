@@ -21,3 +21,6 @@ Route::get('/staging', function () {
     return view('staging.staging');
 });
 
+Route::get('/acceptance', function () {
+    return view('acceptance.acceptance');
+});
